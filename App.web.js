@@ -1,11 +1,12 @@
 import React from 'react';
-import {Switch} from 'react-native';
+import BasicText from './src/components/BasicText';
 
 function App() {
   return (
     <>
-      <h1> 드디어 완성 </h1>
-      <Switch />
+      <h1> WEB </h1>
+
+      <BasicText />
     </>
   );
 }

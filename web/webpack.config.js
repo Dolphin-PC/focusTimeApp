@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const appDirectory = path.resolve(__dirname, '../');
 
 const babelLoaderConfiguration = {
-  test: /\.js$/,
+  test: /\.(js|jsx|tsx)$/,
   use: {
     loader: 'babel-loader',
     options: {
@@ -33,6 +33,6 @@ module.exports = {
     alias: {
       'react-native$': 'react-native-web',
     },
-    extensions: ['.web.js', '.js'],
+    extensions: ['.web.js', '.js', '.tsx', '.jsx'],
   },
 };

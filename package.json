@@ -9,7 +9,7 @@
     "start": "react-native start",
     "test": "jest",
     "build-react": "webpack --mode production",
-    "start-react": "webpack serve --config ./web/webpack.config.js --mode development"
+    "web": "webpack serve --config ./web/webpack.config.js --mode development"
   },
   "dependencies": {
     "@babel/preset-react": "^7.22.5",
